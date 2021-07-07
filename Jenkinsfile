@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                log('asdf')
                 sh 'npm --version'
             }
         }
